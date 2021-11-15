@@ -12,6 +12,7 @@ function SpeechRecognition() {
   return (
     <div>
       <textarea
+      rows="10"
         value={value}
         onChange={(event) => setValue(event.target.value)}
       />
